@@ -1,0 +1,22 @@
+# version: '3.8'
+
+services:
+  publisher:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    image: ros2_publisher
+    networks:
+      - ros2_network
+
+  subscriber:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    image: ros2_subscriber
+    networks:
+      - ros2_network
+
+networks:
+  ros2_network:
+    driver: bridge
