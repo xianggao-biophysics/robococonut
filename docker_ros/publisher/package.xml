@@ -1,0 +1,10 @@
+<package>
+  <name>publisher</name>
+  <version>0.0.1</version>
+  <description>The publisher node for the ROS2 demo.</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>

@@ -1,0 +1,3 @@
+[submodule "docker_images"]
+	path = docker_images
+	url = https://github.com/osrf/docker_images.git
